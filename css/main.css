@@ -3,30 +3,30 @@
 
 @font-face {
   font-family: Poppins-Regular;
-  src: url('../fonts/poppins/Poppins-Regular.ttf'); 
+  src: url('../fonts/poppins/Poppins-Regular.ttf');
 }
 
 @font-face {
   font-family: Poppins-Bold;
-  src: url('../fonts/poppins/Poppins-Bold.ttf'); 
+  src: url('../fonts/poppins/Poppins-Bold.ttf');
 }
 
 @font-face {
   font-family: Poppins-Medium;
-  src: url('../fonts/poppins/Poppins-Medium.ttf'); 
+  src: url('../fonts/poppins/Poppins-Medium.ttf');
 }
 
 @font-face {
   font-family: Montserrat-Bold;
-  src: url('../fonts/montserrat/Montserrat-Bold.ttf'); 
+  src: url('../fonts/montserrat/Montserrat-Bold.ttf');
 }
 
 /*//////////////////////////////////////////////////////////////////
 [ RESTYLE TAG ]*/
 
 * {
-	margin: 0px; 
-	padding: 0px; 
+	margin: 0px;
+	padding: 0px;
 	box-sizing: border-box;
 }
 
@@ -153,7 +153,7 @@ iframe {
 }
 
 .container-login100 {
-  width: 100%;  
+  width: 100%;
   min-height: 100vh;
   display: -webkit-box;
   display: -webkit-flex;
@@ -172,7 +172,7 @@ iframe {
 }
 
 .wrap-login100 {
-  width: 960px;
+
   background: #fff;
   border-radius: 10px;
   overflow: hidden;
@@ -184,7 +184,7 @@ iframe {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 50px 130px 33px 95px;
+  padding: 50px 95px 33px 95px;
 }
 
 /*------------------------------------------------------------------
@@ -418,7 +418,7 @@ iframe {
 
 @media (max-width: 992px) {
   .wrap-login100 {
-    padding: 50px 90px 33px 85px;
+    padding: 50px 85px 33px 85px;
   }
 
   .login100-pic {
@@ -437,13 +437,13 @@ iframe {
 
   .login100-pic {
     display: none;
-    
+
   }
 
   .login100-form {
     width: 100%;
   }
-  
+
   .mobileads {
     display: flex;
   }
@@ -453,8 +453,8 @@ iframe {
   .wrap-login100 {
     padding: 50px 15px 33px 15px;
   }
-  
-  
+
+
 }
 
 

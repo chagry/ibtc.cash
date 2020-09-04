@@ -2,7 +2,7 @@
 (function ($) {
     "use strict";
 
-    
+
     /*==================================================================
     [ Validate ]*/
     var input = $('.validate-input .input100');
@@ -16,7 +16,7 @@
                 check=false;
             }
         }
-        
+
         return check;
     });
 
@@ -51,23 +51,23 @@
 
         $(thisAlert).removeClass('alert-validate');
     }
-    
+
     function $_GET(param) {
 		var vars = {};
-		window.location.href.replace( location.hash, '' ).replace( 
+		window.location.href.replace( location.hash, '' ).replace(
 			/[?&]+([^=&]+)=?([^&]*)?/gi, // regexp
 			function( m, key, value ) { // callback
 				vars[key] = value !== undefined ? value : '';
 			}
 		);
-	
+
 		if ( param ) {
-			return vars[param] ? vars[param] : null;	
+			return vars[param] ? vars[param] : null;
 		}
 		return vars;
 	}
-	
-	$('.resulturl').text('https://chagry.github.io/?addr='+$_GET('addr')+'&amount='+$_GET('amount'));
+
+	$('.resulturl').text('https://ibtc.cash/?addr='+$_GET('addr')+'&amount='+$_GET('amount'));
 	$('.validate-form .addr').val($_GET('addr'));
 	$('.validate-form .amount').val($_GET('amount'));
 

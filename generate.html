@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Bitcoin payment</title>
+	<title>Generate URL</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->
@@ -26,40 +26,44 @@
 	<div class="limiter">
 		<div class="container-login100">
 			<div class="wrap-login100">
+				
 
-				<div class="login100-form">
-					<div class="text-center p-t-12">
-						<span class="login100-form-title">
-							Bitcoin Payments
-						</span>
-					</div>
-					<div class="text-center p-t-12">
-						<span class="txt1 btcaddr">
-
-						</span>
-					</div>
-
-					<span class="login100-form-title">
-						<span class="btcamount"></span> BTC
+				<form class="login100-form validate-form">
+					<span class="login101-form-title">
+						Generate URL
 					</span>
 
-					<div class="container-login100-form-btn">
-						<div id="qrcode"></div>
-					</div>
-
-					<div class="container-login100-form-btn">
-						<a class="wallet" href=""><button class="login100-form-btn">
-							Pay with your wallet
-						</button></a>
-					</div>
-
-					<div class="text-center p-t-12">
-						<span class="txt1">
-							Open source <a href="https://github.com/chagry/ibtc.cash" target="_blank">GitHub</a> - <a href="generate.html" target="_blank">Generate URL</a>
+					<div class="wrap-input100 validate-input" data-validate = "Bitcoin address required">
+						<input class="input100 addr" type="text" name="addr" placeholder="Bitcoin address">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-fort-awesome" aria-hidden="true"></i>
 						</span>
 					</div>
 
-				</div>
+					<div class="wrap-input100 validate-input" data-validate = "Amount required">
+						<input class="input100 amount" type="text" name="amount" placeholder="0.00456045">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-btc" aria-hidden="true"></i>
+						</span>
+					</div>
+
+					<div class="container-login100-form-btn">
+						<button class="login100-form-btn">
+							Generate
+						</button>
+					</div>
+
+					<span class="login102-form-title">
+						Your URL
+					</span>
+					<div class="p-t-12">
+						<pre class="txt1 resulturl">
+
+						</pre>
+					</div>
+				</form>
 			</div>
 		</div>
 	</div>
@@ -80,8 +84,7 @@
 		})
 	</script>
 <!--===============================================================================================-->
-	<script type="text/javascript" src="js/qrcode.min.js"></script>
-	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/main1.js"></script>
 
 
 </body>
