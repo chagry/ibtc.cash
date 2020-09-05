@@ -1,13 +1,13 @@
 # Bitcoin payment
 Simple HTML Page for Bitcoin Payments System.
 
-![page](images/page.jpg)
+![page](images/page.png)
 
 # Utilisation
 
 Vous pouvez appeler directement cette url ou de forker le projet.
 
-L'url d'appel : https://ibtc.cash/?addr=YOUR_BITCOIN_ADDRESS&amount=YOUR_AMOUNT
+L'url d'appel : https://ibtc.cash/?addr=1LsNgUQLF8fDscpniPEhTaADKEVztj5jAN&amount=0.00047300
 
 Passer des variables dans l'URL avec $_GET.
 
@@ -18,12 +18,12 @@ Passer des variables dans l'URL avec $_GET.
 
 Exemple d'utilisation.
 ```
-https://ibtc.cash/?addr=1LsNgUQLF8fDscpniPEhTaADKEVztj5jAN&amount=0.00047300
+https://ibtc.cash/?addr=YOUR_BITCOIN_ADDRESS&amount=YOUR_AMOUNT
 ```
 
 Vous pouvez générer des urls directement [avec cette page](https://ibtc.cash/generate.html).
 
-![gen](images/gen.jpg)
+![gen](images/gen.png)
 
 ***
 
